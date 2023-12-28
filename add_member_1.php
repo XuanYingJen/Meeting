@@ -1,0 +1,23 @@
+<?php
+    $name=$_POST["name"];
+    $phone=$_POST["phone"];
+    $sex=$_POST["sex"];
+    $email=$_POST["email"];
+    $identity=$_POST["identity"];
+    $ID=$_POST["ID"];
+    $add_account=$_POST["add_account"];
+    session_start();
+    unset($_SESSION['name']);
+    unset($_SESSION['email']);
+    unset($_SESSION['tel']);
+    unset($_SESSION['sex']);
+    unset($_SESSION['identity']);
+    $_SESSION['name']=$name;
+    $_SESSION['email']=$email;
+    $_SESSION['identity']=$identity;
+    $_SESSION['phone']=$phone;
+    $_SESSION['sex']=$sex;
+    $_SESSION['ID']=$ID;
+    $_SESSION['add_account']=$add_account;
+    header("Location: 新增人員資料1-2.php");
+?>

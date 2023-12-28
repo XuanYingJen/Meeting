@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background:url("系辦.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.login{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: rgba(240, 235, 235, 0.5);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "微軟正黑體",sans-serif;
+    border-radius: 10px;
+    padding: 30px;
+}
+.login i{
+    font-size: 100px;
+    margin: 20px auto;
+}
+input[type = "text"],input[type = "password"]{
+    font-size: 14px;
+    font-family: "微軟正黑體",sans-serif;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    width:90%;
+
+}
+button{
+    border-radius: 5px;
+    padding: 4px 8px;
+    margin: 20px auto;
+    font-size: 18px;
+    font-family: "微軟正黑體",sans-serif;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
